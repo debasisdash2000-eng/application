@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 28th Webpage</title>
+    <link rel="icon" href="logo.png">
+    <style>
+        div{
+            width: 300px;
+            background: black;
+            color: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 0 10px blue;
+            margin: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2 align="center"><u>Registration Form</u></h2>
+        <form action="reg.html" autocomplete="off">
+          <p>
+              <label for="fna">FullName</label>
+            <span>*</span> <br>
+            
+                <input type="text" id="fna" name="fna" required autofocus>
+            </p>
+            <p>
+               <label for="em">EmailID</label>
+               <SPan>*</SPan> <br>
+               <input type="email" id="em" name="em" required>
+
+            </p>
+            <p>
+                <label for="ph">Phone Number</label>
+                <span>*</span> <br>
+                <input type="number" id="ph" name="ph" required min="6000000000" max="99999999999"> 
+            </p>
+            <p>
+                <label for="dob">Date Of Birth</label>
+                <span>*</span> <br>
+                <input type="date" id="=dob" name="dob">
+            </p>
+            <p>
+                <label for="">Gender :</label>
+                <input type="radio" id="gen1" name="gen">
+                <label for="gen1">Male</label> &nbsp;
+                <input type="radio" id="gen2" name="gen">
+                <label for="gen2">Female</label> &nbsp;
+                <input type="radio" id="gen3" name="gen">
+                <label for="gen3">Others</label>
+
+            </p>
+            <p>
+                <label for="course">Which Course?</label>
+                <select name="course" id="course">
+                    <option value="jfs">Java Fullstack</option>
+                    <option value="pfs">Pythoon Fullstack</option>
+                    <option value="dnfs">Dot NET Fullstack</option>
+                    <option value="uifs">UI Fullstack</option>
+                </select>
+            </p>
+            <p>
+                <label for="mot">Mode Of Training</label>
+                <select name="mot" id="mot">
+                    <option value="ct">ClassRoom Training</option>
+                    <option value="ot">Online Training</option>
+                    <option value="pmt">Placement Training</option>
+                    <option value="pt">Project Training</option>
+                    <option value="it">Internship Training</option>
+                </select>
+            </p>
+            <p align="center">
+               <input type="checkbox" id="tc" name="tc" required>
+               <label for="tc">I accept all terms and conditions</label>   
+            </p>
+            <p align="center">
+               <button type="submit">Enroll Now</button>
+            </p>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
